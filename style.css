@@ -1,0 +1,35 @@
+body {
+    height: 800px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+}
+
+
+.key-for-keyboard {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.key-for-keyboard {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 60px;
+    height: 180px;
+    background-color: white;
+    box-shadow: 0 0 40px green;
+    border-radius: 30px;
+    margin: 0px 15px;
+    padding-bottom: 20px;
+    font-size: 35px;
+    font-family: Verdana;
+}
